@@ -12,6 +12,9 @@ using namespace std;
     4. [10,10,10] is a corner case where the ans returned should be -1 because all 3 elements are largest and there
         is no second largest
 */
+/*
+    TC : O(N) + O (N) (O(N) for each pass)
+*/
 
 int findLargest(int arr[],int n){
     int maxElement = INT_MIN;
