@@ -8,8 +8,6 @@ using namespace std;
 /*
     1. Traaverse the string
     2. If found ( leftCount ++ 
-        a. rightSum = TotalSum - Arr[i] - leftSum;
-        b. leftSum += Arr[i];
     3. If found ) 
         a. check if there exists any '(' [if(leftParanthesisCount > 0 ) ] if yes , leftCount -- {Balancing left and right paranthesis}
         b. else rightCount ++;
